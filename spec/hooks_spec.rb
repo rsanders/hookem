@@ -1,4 +1,5 @@
 require File.join(File.dirname(__FILE__), 'spec_helper')
+require 'zeevex_concurrency'
 require 'zeevex_concurrency/event_loop'
 
 describe Hookem do

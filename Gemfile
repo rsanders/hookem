@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-group :development, :test do
+group :development do
   gem 'pry'
   gem 'pry-remote'
   gem 'pry-doc'
@@ -10,6 +10,9 @@ group :development, :test do
   gem 'pry-git', :platform => :mri
   gem 'jist'
   gem 'ruby18_source_location', :platform => :mri_18
+end
+
+group :development, :test do
   gem 'zeevex_concurrency'
 end
 
